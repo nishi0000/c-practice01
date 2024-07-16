@@ -1,49 +1,15 @@
-﻿
+﻿// string permission = "Admin|Manager";
+string permission = "Manager";
+int level = 19;
 
-// int saleAmount = 1001;
-// int discount = saleAmount > 1000 ? 100 : 50;
-// Console.WriteLine($"Discount: {discount}");
+if (level > 55 && permission.Contains("Admin"))
+    Console.WriteLine("Welcome, Super Admin user.");
 
+else if (level <= 55 && permission.Contains("Admin"))
+    Console.WriteLine("Welcome, Admin user.");
 
-// int saleAmount = 1001;
-// // int discount = saleAmount > 1000 ? 100 : 50;
+else if (level >= 20 && permission.Contains("Manager"))
+    Console.WriteLine("Contact an Admin for access.");
 
-// Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
-
-Random test = new Random();
-String result = test.Next(0,2) == 0? "heads" : "tails";
-Console.WriteLine(result);
-
-
-
-
-
-
-
-
-
-
-
-
-// string value1 = " a";
-// string value2 = "A ";
-// Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
-
-
-// Console.WriteLine("a" != "a");
-// Console.WriteLine("a" != "A");
-// Console.WriteLine(1 != 2);
-
-// string myValue = "a";
-// Console.WriteLine(myValue != "a");
-
-
-// Console.WriteLine(1 > 2);
-// Console.WriteLine(1 < 2);
-// Console.WriteLine(1 >= 1);
-// Console.WriteLine(1 <= 1);
-
-// string pangram = "The quick brown fox jumps over the lazy dog.";
-// Console.WriteLine(pangram.Contains("fox"));
-// Console.WriteLine(pangram.Contains("cow"));
-
+else
+    Console.WriteLine("You do not have sufficient privileges.");
