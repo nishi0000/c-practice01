@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\testproject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\testproject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\testproject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\testproject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\Nishimura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\Nishimura\\Desktop\\CsharpProjects\\testproject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
