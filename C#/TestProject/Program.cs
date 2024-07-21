@@ -1,12 +1,17 @@
-﻿
-for (int i = 1; i <= 100; i++)
+﻿Random random = new Random();
+int current = random.Next(1, 11);
+
+/*
+do
 {
-    if (i % 3 == 0 && i % 5 == 0)
-        Console.WriteLine(i + " - FizzBuzz");
-    else if (i % 5 == 0)
-        Console.WriteLine(i + " - Buzz");
-    else if (i % 3 == 0)
-        Console.WriteLine(i + " - Fizz");
-    else
-        Console.WriteLine(i);
+    current = random.Next(1, 11);
+    Console.WriteLine(current);
+} while (current != 7);
+*/
+
+while (current >= 3)
+{
+    Console.WriteLine(current);
+    current = random.Next(1, 11);
 }
+Console.WriteLine($"Last number: {current}");
