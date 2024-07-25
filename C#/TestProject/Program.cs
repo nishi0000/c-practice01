@@ -1,27 +1,58 @@
 ﻿
 
 
-string? readResult;
-string[] role = ["Administrator", "Manager", "User"];
-bool roleMatch = false;
-Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
-do
-{
-    readResult = Console.ReadLine();
-    readResult = readResult.Trim().ToLower();
 
-    foreach (string str in role)
-    {
-        if (readResult.Equals(str))
-            roleMatch = true;
-    }
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 
-    if (roleMatch)
-        Console.WriteLine('The role name that you entered, "{}" is not valid. Enter your role name (Administrator, Manager, or User)');
 
-} while (!roleMatch);
 
-Console.WriteLine($"Your input value ({readResult}) has been accepted.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string? readResult;
+// string answer;
+// string[] role = { "Administrator", "Manager", "User" };
+// bool roleMatch;
+
+// Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
+// do
+// {
+//     readResult = Console.ReadLine();
+//     roleMatch = false;
+
+//     if (readResult != null)
+//     {
+//         answer = readResult.Trim().ToLower();
+
+//         foreach (string str in role)
+//         {
+//             if (answer.Equals(str.ToLower()))
+//             {
+//                 roleMatch = true;
+//                 break;
+//             }
+//         }
+//     }
+
+//     if (!roleMatch)
+//         Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role name (Administrator, Manager, or User)");
+
+// } while (!roleMatch);
+
+// Console.WriteLine($"Your input value ({readResult}) has been accepted.");
 
 
 
