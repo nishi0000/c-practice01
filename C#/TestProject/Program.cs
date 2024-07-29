@@ -9,7 +9,7 @@ for(int i = 0; i < myStrings.Length; i++)
     {
         myStrings[i] = myStrings[i].Remove(periodLocation, 1); // ピリオドを削除
         Console.WriteLine(myStrings[i]);
-        periodLocation = myStrings[i].IndexOf("."); // 次のピリオドの位置を再取得
+        // periodLocation = myStrings[i].IndexOf("."); // 次のピリオドの位置を再取得
 
     }
 
