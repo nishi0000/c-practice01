@@ -1,8 +1,45 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<div class="text-center">
+    <h1 class="display-4">サンプルRPG</h1>
+    <!-- メイン画面 -->
+    <div class="game-screen"></div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <!-- メッセージウィンドウ -->
+    <div class="message-window" id="message-window">
+        <p id="message-text">ようこそ、勇者よ……</p>
+    </div>
 </div>
+
+<style>
+    .game-screen {
+        width: 400px;
+        height: 400px;
+        margin: 20px auto;
+        background-color: pink;
+    }
+
+    .message-window {
+        width: 400px;
+        height: 150px;
+        margin: 40px auto;
+        background-color: pink;
+        padding: 1em;
+        font-family: "Courier New", monospace;
+        cursor: pointer;
+        user-select: none;
+    }
+
+        .message-window p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+</style>
+
+<script>
+    document.getElementById("message-window").addEventListener("click", () => {
+        fetch("/Game/GetNextMessage")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("message-text").textContent = data;
+            });
+    });
+</script>
