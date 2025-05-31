@@ -1,0 +1,14 @@
+C:\Users\Nishimura\source\repos\sample01\sample01\bin\Debug\net6.0\sample01.exe
+C:\Users\Nishimura\source\repos\sample01\sample01\bin\Debug\net6.0\sample01.deps.json
+C:\Users\Nishimura\source\repos\sample01\sample01\bin\Debug\net6.0\sample01.runtimeconfig.json
+C:\Users\Nishimura\source\repos\sample01\sample01\bin\Debug\net6.0\sample01.dll
+C:\Users\Nishimura\source\repos\sample01\sample01\bin\Debug\net6.0\sample01.pdb
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.AssemblyInfoInputs.cache
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.AssemblyInfo.cs
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.csproj.CoreCompileInputs.cache
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.dll
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\refint\sample01.dll
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.pdb
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\sample01.genruntimeconfig.cache
+C:\Users\Nishimura\source\repos\sample01\sample01\obj\Debug\net6.0\ref\sample01.dll
